@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test_01(failed)">
+    <parameter name="browsername" value="Chrome"/>
+    <classes>
+      <class name="scripts_CrossBrowserExecution.ToLaunchApp_04">
+        <methods>
+          <include name="launch_app" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- scripts_CrossBrowserExecution.ToLaunchApp_04 -->
+    </classes>
+  </test> <!-- Test_01(failed) -->
+  <test thread-count="5" parallel="methods" name="Test_02(failed)">
+    <parameter name="browsername" value="Edge"/>
+    <classes>
+      <class name="scripts_CrossBrowserExecution.ToLaunchApp_04">
+        <methods>
+          <include name="launch_app" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- scripts_CrossBrowserExecution.ToLaunchApp_04 -->
+    </classes>
+  </test> <!-- Test_02(failed) -->
+</suite> <!-- Failed suite [Suite] -->
